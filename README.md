@@ -1,10 +1,51 @@
 # sw around music library
 
+* _model_: relational
+* _interface_: ?
+
 * current headers to store: albums, live, songs, parts
 > also store output of file watcher?
 
+* _artists_: The Band, Cody Chesnutt, D'Angelo, Stevie Wonder, Nas, Jay-Z, Andre, TVotR
+* _code music_: ambient, drone, idm
+* _cover art_: Lost in Translation alternate, Miles Davis someday my prince will come Ohio Players all Slint spiderland Diana Ross first album
+* _erosion of ownership_: subscription, DRM, end-user license agreements https://www.eff.org/deeplinks/2017/05/book-review-end-ownership%0A https://news.ycombinator.com/item?id=15862494
+* _high points_: Stevie Wonder for the 70s, Wu Tang in 1995, TVotR in the 2000s
+* _intros_: Beach Boys wouldn't it be nice, Diana Ross i'm coming out, Fucked Up broken head, Mount Kimbie home recording, Ghostface back like that, Theme from S Express has the best intro of all time
+* _Philly_: Barbara Mason, Coltrane, Philly Joe Jones, Jaco Pastorius, McCoy Tyner, Roots, The Trammps, War on Drugs, Delfonics
+* _playlist_: baby it's you, baby it's me
+* _titles - albums_: Ramones 'Too Tough to Die' https://en.wikipedia.org/wiki/The_Powers_That_B#Niggas_on_the_Moon https://en.wikipedia.org/wiki/Turn_It_Up_Faggot https://en.wikipedia.org/wiki/I_Don%27t_Like_Shit,_I_Don%27t_Go_Outside https://en.wikipedia.org/wiki/Who_Is_This_Bitch,_Anyway%3F
+* _titles - songs_: I'm Leaving You Because I Don't Love You
+* _underappreciated geniuses_: Cody Chesnutt, Jens Lekman
+* _upset_: Illmatic intro, Legend, Many Men, Walk, U Guessed It, Mantra, A Lot, Return of the G, Praying for Help, Nowhere2Go, Alright, Yah, Love, Fear, Hail Mary, Heaven
+
+__lifetime__
+
+* _guides_: parents (the Who) DVDs (Incubus, Led Zeppelin) Paste Magazine, Penn State library and Pitchfork and Jack, Hella Tight and Wikipedia, Christgau and Wikipedia, Swafford and Neely
+
+* high school: 
+* Penn State: only built 4 cuban linx, london calling
+* Dalian: 
+* Nanjing: 
+* Philadelphia: 
+* Delaware: 
+* NYC: 
+* London: a lot
+* NYC: 
+
+__moments__
+
+* 2003: listening to 'Rich' going into the Lincoln Tunnel
+* 2003: turn on 'De-Loused in the Comatorium' in my room, sit down
+* 2006: TV on the Radio at Starlight Ballroom, Radiohead at Bonnaroo, Clipse in Pittsburgh
+* 2010: Carsick Cars in Beijing
+* 2016: Xiu Xiu does Laura and Leland
+* 2017: Caravan in my apartment
+* 2019: Bruce and Dancing in the Dark at Astor Bar
+
 ## tooling
 
+* download from Soundcloud and Bandcamp https://github.com/Miserlou/SoundScrape
 * _metadata_: https://bitheap.org/dnuos/ http://oidua.suxbad.com/ https://www.theverge.com/2019/5/29/18531476/music-industry-song-royalties-metadata-credit-problems http://richardmavis.info/tagging-files
 * _NAS (network attached storage)_: aka 'home media server'; options (Plex, cmus remote) https://www.youtube.com/results?search_query=cmus+remote&page=&utm_source=opensearch https://www.youtube.com/watch?v=UJw9YU_SBzo https://blog.dave.tf/post/building-nas-1/ https://www.youtube.com/results?search_query=build+a+nas https://www.youtube.com/results?search_query=buy+a+nas https://kevq.uk/my-home-server-2-months-on/
 > all this work just to stream music doesn't make sense, just keep rolling w/ backups and your $60 thumb drive
@@ -12,7 +53,7 @@
 
 __Looper__
 
-* _inspiration_: https://wiki.python.org/moin/PythonInMusic https://github.com/Rigellute/spotify-tui
+* _inspiration_: https://wiki.python.org/moin/PythonInMusic https://www.youtube.com/watch?v=1fr_5v6nc-s
 * things in this space: https://www.reddit.com/r/Guitar/comments/3v4tql/how_to_slow_down_music_in_order_to_play_along/ https://music.tutsplus.com/tutorials/10-apps-for-slowing-down-solos--audio-7516 Anytune https://www.youtube.com/results?search_query=anytune&page=&utm_source=opensearch Transcribe https://www.seventhstring.com/xscribe/screenshots.html https://wiki.python.org/moin/PythonInMusic
 * _features_: loop section (like Steezy) add metronome, slow down (you don't need to warp if Youtube doesn't) https://stackoverflow.com/q/9953219/6813490
 
@@ -85,6 +126,7 @@ config
 
 __top 10__
 
+* _Band_: Northern Lights Southern Cross
 * _Brian Eno_: Another Green World
 * _Clipse_: Hell Hath No Fury
 * _Cody Chesnutt_: Headphone Masterpiece
@@ -110,6 +152,7 @@ __jazz__
 * _Chet Baker_: Chet Baker Sings
 * _Coltrane_: Blue Train, Love Supreme
 * _Ellington_: Money Jungle
+* _Horace Silver_: Jazz Messengers, Songs for My Father
 * _Kamasi_: The Epic
 * _Mingus_: Ah Um
 * _Miles Davis_: Sketches of Spain, Bitches Brew
@@ -269,6 +312,7 @@ __dance__
 * _The Knife_: Heartbeats
 * _Larry Heard_: Never No More
 * _Lectrovluv_: If We Try
+* _Machine Drum_: Fantastix
 * _Matthew Herbert_: It's Only
 * _Mia Hesterly_: Spark
 * _Omar S_: On Your Way
@@ -281,6 +325,7 @@ __dance__
 __jazz__
 
 * _Coltrane_: Blue Train, Naima, In a Sentimental Mood, Moment's Notice
+* _Derrick Hodge_: For Generations
 * _Ellington_: Fleurette Africaine
 * _Miles_: It Never Entered My Mind, My Funny Valentine, Someday My Prince Will Come
 * _Mingus_: Open Letter to Duke
@@ -469,3 +514,87 @@ __love__
 * _Patsy Cline_: She's Got You
 * _Ronettes_: Do I Love You
 * _Stevie Wonder_: I Love Every Little Thing
+
+## genres
+
+📻 https://wfmu.org/ https://www.wrti.org/ https://player.siriusxm.com/#/player/live https://github.com/luigifreitas/CyberRadio https://kpiss.fm/about/ http://radiooooo.com/
+
+* _ambient_: https://www.youtube.com/watch?v=fM6FeOyKV-o
+* _generative_: https://www.youtube.com/watch?v=ZwRnrNVUTWM https://news.ycombinator.com/item?id=20514446 https://2018.pygotham.org/talks/creative-music-applications-in-python/ https://medium.com/@metalex9/generating-more-of-my-favorite-aphex-twin-track-cde9b7ecda3a https://www.youtube.com/watch?v=MAYlMcyVZ2k https://github.com/Tonejs/Tone.js https://github.com/supercollider/supercollider/ https://www.youtube.com/watch?v=FVonrx47xHk
+* Japanese https://www.youtube.com/watch?v=CpJPnCaIy80
+* _musicology_: https://www.pythonpodcast.com/music21-computational-musicology-episode-198/ https://www.hooktheory.com/blog/i-analyzed-the-chords-of-1300-popular-songs-for-patterns-this-is-what-i-found/ https://github.com/dodiku/audioowl http://everynoise.com/#otherthings
+* _Spanish_: https://www.nonesuch.com/albums/mexico-real-mexico-music-and-song
+* albums are getting longer, Chris Brown album has 45 songs
+
+__Africa__
+
+* _makossa_: Cameroon 80s 🗄 Bébé Manga, Amie
+* _soukous_: Congolese rumba; Tabu Ley slower version into faster modern-day stuff; apparently still popular in Colombia https://www.youtube.com/watch?v=ZV_TZumIQuc
+* https://en.wikipedia.org/wiki/Miriam_Makeba#Musical_influence
+
+__art__
+
+📺 https://www.youtube.com/channel/UC4ihNhN8iN9QPg2XTxiiPJw/videos
+
+* _pre-8th_: secular styles, unrecorded and w/out notation, are born and die [VG 5] https://www.forbes.com/sites/drsarahbond/2017/11/28/five-ways-to-listen-to-the-music-of-the-ancient-world-today/#148147537d9d
+* _8th_: start of polyphony, Church develops notation (necessary bc w/ polyphony, music too complex to remember from memory) [VG 11]
+* _medieval_ (10th-14th): monophony of rhythm-less chant and “hazy tonality” (Hildegard) to early polyphony (Machaut)
+* _renaissance_ (15th-16th): polyphony clarifies (Palestrina)
+* _baroque_ (17th): more contrast, opera emerges; Vivaldi; harmony via interweaving melodies vs. chords https://www.youtube.com/watch?v=VR3o45Pwx9Y 2:20
+* _classical_ (18th): harmony, concerto (symphony w/ soloist) is dominant, string quartet emerges; Mozart; orchestra instruments finalize in classical period https://music.stackexchange.com/a/86383/56021
+* _romantic_ (19th): music closer to literature, politics; Beethoven
+* _modern_ (20th): motifs w/out central melody, 12 tone (avoids key); Schoenberg
+
+* _intermezzo_: denoting pieces that do not serve any particular dramatic function (if appearing in an opera), do not fit any particular predefined dance form (such as a waltz or rondo) and are are intended purely as a musical interlude (some composers actually use interlude instead of intermezzo)
+
+* _chamber music_: small group, basically; ex. Philip Glass, ‘Glassworks'
+* _motet_: choral composition w/ no accompaniment
+* _oratorio_: orchestra + voices + religious narrative (Handel's Messiah, Marsalis' Blood on the Fields)
+* _symphony_: 4 movements; cheerful, brisk, reflective, triumphant; Beethoven
+* _tone poem_: 1 movement, based on another piece of art; Liszt
+
+__dance__
+
+📺 Pump Up the Volume
+
+* _big beat_: big drops; Chemical Brothers
+* _loose_: r&b —> disco —> house
+* _tight_: krautrock —> techno
+* _offshoots_: garage (faster house) grime (garage but darker e.g. Wiley) dubstep (grime but bad) https://www.youtube.com/watch?v=CRPuD_F-0Jk
+* Newark, Club Zanzibar https://www.youtube.com/watch?v=ldWbZZnFmrI
+* _sink_: https://www.residentadvisor.net/features/3588 https://www.residentadvisor.net/features/3540 wonder if they'll hold JC house thing again https://www.youtube.com/watch?v=fPhuS1icMYk
+* where DJs get music https://www.youtube.com/watch?v=OCKVJCEAe_8 beatport seems to cater to genres I don't listen to https://www.youtube.com/playlist?list=PLThryQTnOzUaZesUD8vUKY_803mRUs4x7
+
+__Jamaica__
+
+* dembow -> reggaeton
+* ska -> rocksteady -> reggae -> dub -> dancehall
+* ❓ where does soca fit into all this?
+
+__jazz__
+
+🗄 `100-jazz-albums.pdf`
+
+* standards https://www.youtube.com/watch?v=MPRpac5A_fg 11:00
+* _temptation_: jazz requires high technical ability, leading to techique receiving disproportionate attention and music defined by music technique and theory, which attracts a musician audience, and so on in a cycle
+* relationship to race, transcription, the academy https://www.youtube.com/watch?v=dD0e5e6wI_A
+* _styles_: New Orleans, swing, bebop, cool, modal, hard bop, free, third stream, fusion
+* _New Orleans_: 1910s King Oliver 1920s Louis Armstrong; swung quarter notes
+* _stride_: 1920s Fats Waller; chord on 2 and 4
+* _walking bass_: quarter notes that outline chord progressions
+
+__latin__
+
+📺 Latin Music USA
+
+* _salsa (Fania)_: jazz (Machito) + mambo (Tito Puente, Tito Rodriguez)
+* _bossa nova (João Gilberto, Elis Regina)_: jazz + samba (‘a' 1 ‘a' 2)
+* _conjunto_: mexican
+* _norteño_: tejano
+
+__za__
+
+* _generative_: https://alexbainter.com/
+* _new jack_: no melody during verse
+* _soul_: https://www.youtube.com/user/TheSoulhawk/videos
+* _trip hop_: Portishead, Massive Attack, Tricky
