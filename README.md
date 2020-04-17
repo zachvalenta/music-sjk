@@ -8,16 +8,34 @@
 
 * _artists_: The Band, Cody Chesnutt, D'Angelo, Stevie Wonder, Nas, Jay-Z, Andre, TVotR
 * _code music_: ambient, drone, idm
-* _cover art_: Lost in Translation alternate, Miles Davis someday my prince will come Ohio Players all Slint spiderland Diana Ross first album
+* _cover art_: Lost in Translation OST Japanese version, Miles Davis someday my prince will come, Ohio Players skin tight, Slint spiderland Diana Ross first album Bobby Timmons little barefoot soul Monica miss thang Mike Clark Paul Jackson funk stops here John Prine sweet revenge
 * _erosion of ownership_: subscription, DRM, end-user license agreements https://www.eff.org/deeplinks/2017/05/book-review-end-ownership%0A https://news.ycombinator.com/item?id=15862494
 * _high points_: Stevie Wonder for the 70s, Wu Tang in 1995, TVotR in the 2000s
 * _intros_: Beach Boys wouldn't it be nice, Diana Ross i'm coming out, Fucked Up broken head, Mount Kimbie home recording, Ghostface back like that, Theme from S Express has the best intro of all time
-* _Philly_: Barbara Mason, Coltrane, Philly Joe Jones, Jaco Pastorius, McCoy Tyner, Roots, The Trammps, War on Drugs, Delfonics
+* _Philly_: Barbara Mason, Coltrane, Philly Joe Jones, Jaco Pastorius, McCoy Tyner, Roots, The Trammps, War on Drugs, Delfonics, Nina Simone, Tierra Whack
 * _playlist_: baby it's you, baby it's me
 * _titles - albums_: Ramones 'Too Tough to Die' https://en.wikipedia.org/wiki/The_Powers_That_B#Niggas_on_the_Moon https://en.wikipedia.org/wiki/Turn_It_Up_Faggot https://en.wikipedia.org/wiki/I_Don%27t_Like_Shit,_I_Don%27t_Go_Outside https://en.wikipedia.org/wiki/Who_Is_This_Bitch,_Anyway%3F
 * _titles - songs_: I'm Leaving You Because I Don't Love You
 * _underappreciated geniuses_: Cody Chesnutt, Jens Lekman
 * _upset_: Illmatic intro, Legend, Many Men, Walk, U Guessed It, Mantra, A Lot, Return of the G, Praying for Help, Nowhere2Go, Alright, Yah, Love, Fear, Hail Mary, Heaven
+* _lyrics_: Stooges raw power Mac grand finale, Lil Kim queen bitch Jay Elec how great
+
+Big L
+> and when it comes to gettin' nookie I'm not a rookie / I got girls that make that chick Toni Braxton look like whoopie - put it on
+> everybody wanna be like Mike / but Mike wanna be like L
+> Every minute, my style switches up / they say a real man / Won't hit a girl / well I ain't real cause I beat bitches up - danger zone
+> I got slugs for snitches / no love for bitches / puttin thugs in pictures / when my trigger finger itches - Jay Z freestyle
+
+Mac grand finale
+
+> And if by chance this is my grand finale / bury me in Allegheny County
+> It's the most hated, so faded that I'm bow-legged / don't bathe, gross gang, smell like old lo-mein
+> Shit, the flow dangerous, make you wanna do the wave / throw your bitch right off your lap and start a standing ovation
+> The most strangest, master of the ceremonies / a fifth of Stoli then it’s only Cher and Moby karaoke
+> My bitch a shooter, call her Annie Oakley / get you for a pair of Kobe's, just got out on probation 
+> and no famous friends for me, just old faces / I only go places wasted like I'm Joe Namath
+> Not a king, I'm no David, music, I'm a crackhead / no hobbies and recreation, don't even know my address
+> Self medicate, self education / Rick Rubin showed me transcendental meditation
 
 __lifetime__
 
@@ -45,6 +63,7 @@ __moments__
 
 ## tooling
 
+* youtube-dl alternative https://github.com/Marethyu12/gotube
 * download from Soundcloud and Bandcamp https://github.com/Miserlou/SoundScrape
 * _metadata_: https://bitheap.org/dnuos/ http://oidua.suxbad.com/ https://www.theverge.com/2019/5/29/18531476/music-industry-song-royalties-metadata-credit-problems http://richardmavis.info/tagging-files
 * _NAS (network attached storage)_: aka 'home media server'; options (Plex, cmus remote) https://www.youtube.com/results?search_query=cmus+remote&page=&utm_source=opensearch https://www.youtube.com/watch?v=UJw9YU_SBzo https://blog.dave.tf/post/building-nas-1/ https://www.youtube.com/results?search_query=build+a+nas https://www.youtube.com/results?search_query=buy+a+nas https://kevq.uk/my-home-server-2-months-on/
@@ -53,7 +72,10 @@ __moments__
 
 __Looper__
 
-* _inspiration_: https://wiki.python.org/moin/PythonInMusic https://www.youtube.com/watch?v=1fr_5v6nc-s
+* might be able to just use Audacity https://www.audacityteam.org/ https://duckduckgo.com/?q=audacity+slow+tempo+without+changing+pitch&ia=web
+* aka phase vocoder https://github.com/Muges/audiotsm/ https://librosa.github.io/librosa/generated/librosa.core.phase_vocoder.html?highlight=phase#r93e62eaec025-1 https://github.com/haoyu987/phasevocoder https://duckduckgo.com/?q=python+phase+vocoder&ia=software
+* Anytune https://apps.apple.com/us/app/anytune-slow-down-music-bpm/id415365180 https://www.youtube.com/watch?v=oM7XmutLszM
+* _inspiration_: Wyatt 5 https://wiki.python.org/moin/PythonInMusic https://www.youtube.com/watch?v=1fr_5v6nc-s
 * things in this space: https://www.reddit.com/r/Guitar/comments/3v4tql/how_to_slow_down_music_in_order_to_play_along/ https://music.tutsplus.com/tutorials/10-apps-for-slowing-down-solos--audio-7516 Anytune https://www.youtube.com/results?search_query=anytune&page=&utm_source=opensearch Transcribe https://www.seventhstring.com/xscribe/screenshots.html https://wiki.python.org/moin/PythonInMusic
 * _features_: loop section (like Steezy) add metronome, slow down (you don't need to warp if Youtube doesn't) https://stackoverflow.com/q/9953219/6813490
 
@@ -66,7 +88,7 @@ alias mlib="cd /Volumes/MUSIC-LIB && t > ~/Desktop/music-lib-$(date +"%Y%m%d").l
 
 * _sink_: https://github.com/watchexec/watchexec https://facebook.github.io/watchman/ https://github.com/emcrisostomo/fswatch https://vsoch.github.io/watchme/getting-started/ https://github.com/cespare/reflex https://github.com/cortesi/modd  --> `mlib` `os.walk()` https://unix.stackexchange.com/questions/90115/convert-output-of-tree-command-to-json-format/ regex to strip and kebab https://github.com/30-seconds/30-seconds-of-python#kebab https://www.robertchristgau.com/get_gl.php?g=A%2B store library song info as db
 
-__editing__
+__music trimmer__
 
 https://github.com/jiaaro/pydub https://realpython.com/playing-and-recording-sound-python/
 
@@ -217,7 +239,9 @@ __irl__
 __TV__
 
 * At the Drive-In: Letterman
+* Band and Van Morrison - Caravan
 * D'Angelo https://www.youtube.com/watch?v=3woHfDKTjqU
+* Fela Kuti https://www.youtube.com/watch?v=zisHSsk9Og0
 * Josh Ritter on Jools Holland
 * Mary J https://www.youtube.com/watch?v=gIH-Yptxf54
 * Sly Stone: Higher
@@ -414,13 +438,14 @@ __rock__
 
 * _Angel Olsen_: Heart-Shaped Face
 * _Antlers_: Rolled Together, Hotel, Revisted
+* _Band_: Band (when you awake, rockin chair)
 * _Beach Boys_: Wouldn't It Be Nice
 * _Beatles_: I'm Looking Through You, In My Life, I Want You, Helter Skelter, Don't Let Me Down
 * _Billy Riley_: Red Hot
 * _Black Sabbath_: War Pigs
 * _Blondie_: Heart of Glass, Sunday Girl
 * _Bowie_: Heroes
-* _Broken Social Scene_: Lover's Spit
+* _Broken Social Scene_: Lover's Spit, Cause Time
 * _Bully_: Either Way
 * _Buzzcocks_: I Believe
 * _Clash_: Police on My Back
@@ -465,7 +490,7 @@ __za__
 
 * _Arthur Russell_: Wild Combination, Keeping Up
 * _Babatunde Olatunji_: Gin Go Lo Ba
-* _Billy Boy Arnold_: Wish You Would
+* _Billy Boy Arnold_: Wish You Would (Bowie version)
 * _Boris_: Flood 2
 * _Brian Eno_: Swastika Girls
 * _Clams Casino_: Natural
@@ -514,87 +539,3 @@ __love__
 * _Patsy Cline_: She's Got You
 * _Ronettes_: Do I Love You
 * _Stevie Wonder_: I Love Every Little Thing
-
-## genres
-
-📻 https://wfmu.org/ https://www.wrti.org/ https://player.siriusxm.com/#/player/live https://github.com/luigifreitas/CyberRadio https://kpiss.fm/about/ http://radiooooo.com/
-
-* _ambient_: https://www.youtube.com/watch?v=fM6FeOyKV-o
-* _generative_: https://www.youtube.com/watch?v=ZwRnrNVUTWM https://news.ycombinator.com/item?id=20514446 https://2018.pygotham.org/talks/creative-music-applications-in-python/ https://medium.com/@metalex9/generating-more-of-my-favorite-aphex-twin-track-cde9b7ecda3a https://www.youtube.com/watch?v=MAYlMcyVZ2k https://github.com/Tonejs/Tone.js https://github.com/supercollider/supercollider/ https://www.youtube.com/watch?v=FVonrx47xHk
-* Japanese https://www.youtube.com/watch?v=CpJPnCaIy80
-* _musicology_: https://www.pythonpodcast.com/music21-computational-musicology-episode-198/ https://www.hooktheory.com/blog/i-analyzed-the-chords-of-1300-popular-songs-for-patterns-this-is-what-i-found/ https://github.com/dodiku/audioowl http://everynoise.com/#otherthings
-* _Spanish_: https://www.nonesuch.com/albums/mexico-real-mexico-music-and-song
-* albums are getting longer, Chris Brown album has 45 songs
-
-__Africa__
-
-* _makossa_: Cameroon 80s 🗄 Bébé Manga, Amie
-* _soukous_: Congolese rumba; Tabu Ley slower version into faster modern-day stuff; apparently still popular in Colombia https://www.youtube.com/watch?v=ZV_TZumIQuc
-* https://en.wikipedia.org/wiki/Miriam_Makeba#Musical_influence
-
-__art__
-
-📺 https://www.youtube.com/channel/UC4ihNhN8iN9QPg2XTxiiPJw/videos
-
-* _pre-8th_: secular styles, unrecorded and w/out notation, are born and die [VG 5] https://www.forbes.com/sites/drsarahbond/2017/11/28/five-ways-to-listen-to-the-music-of-the-ancient-world-today/#148147537d9d
-* _8th_: start of polyphony, Church develops notation (necessary bc w/ polyphony, music too complex to remember from memory) [VG 11]
-* _medieval_ (10th-14th): monophony of rhythm-less chant and “hazy tonality” (Hildegard) to early polyphony (Machaut)
-* _renaissance_ (15th-16th): polyphony clarifies (Palestrina)
-* _baroque_ (17th): more contrast, opera emerges; Vivaldi; harmony via interweaving melodies vs. chords https://www.youtube.com/watch?v=VR3o45Pwx9Y 2:20
-* _classical_ (18th): harmony, concerto (symphony w/ soloist) is dominant, string quartet emerges; Mozart; orchestra instruments finalize in classical period https://music.stackexchange.com/a/86383/56021
-* _romantic_ (19th): music closer to literature, politics; Beethoven
-* _modern_ (20th): motifs w/out central melody, 12 tone (avoids key); Schoenberg
-
-* _intermezzo_: denoting pieces that do not serve any particular dramatic function (if appearing in an opera), do not fit any particular predefined dance form (such as a waltz or rondo) and are are intended purely as a musical interlude (some composers actually use interlude instead of intermezzo)
-
-* _chamber music_: small group, basically; ex. Philip Glass, ‘Glassworks'
-* _motet_: choral composition w/ no accompaniment
-* _oratorio_: orchestra + voices + religious narrative (Handel's Messiah, Marsalis' Blood on the Fields)
-* _symphony_: 4 movements; cheerful, brisk, reflective, triumphant; Beethoven
-* _tone poem_: 1 movement, based on another piece of art; Liszt
-
-__dance__
-
-📺 Pump Up the Volume
-
-* _big beat_: big drops; Chemical Brothers
-* _loose_: r&b —> disco —> house
-* _tight_: krautrock —> techno
-* _offshoots_: garage (faster house) grime (garage but darker e.g. Wiley) dubstep (grime but bad) https://www.youtube.com/watch?v=CRPuD_F-0Jk
-* Newark, Club Zanzibar https://www.youtube.com/watch?v=ldWbZZnFmrI
-* _sink_: https://www.residentadvisor.net/features/3588 https://www.residentadvisor.net/features/3540 wonder if they'll hold JC house thing again https://www.youtube.com/watch?v=fPhuS1icMYk
-* where DJs get music https://www.youtube.com/watch?v=OCKVJCEAe_8 beatport seems to cater to genres I don't listen to https://www.youtube.com/playlist?list=PLThryQTnOzUaZesUD8vUKY_803mRUs4x7
-
-__Jamaica__
-
-* dembow -> reggaeton
-* ska -> rocksteady -> reggae -> dub -> dancehall
-* ❓ where does soca fit into all this?
-
-__jazz__
-
-🗄 `100-jazz-albums.pdf`
-
-* standards https://www.youtube.com/watch?v=MPRpac5A_fg 11:00
-* _temptation_: jazz requires high technical ability, leading to techique receiving disproportionate attention and music defined by music technique and theory, which attracts a musician audience, and so on in a cycle
-* relationship to race, transcription, the academy https://www.youtube.com/watch?v=dD0e5e6wI_A
-* _styles_: New Orleans, swing, bebop, cool, modal, hard bop, free, third stream, fusion
-* _New Orleans_: 1910s King Oliver 1920s Louis Armstrong; swung quarter notes
-* _stride_: 1920s Fats Waller; chord on 2 and 4
-* _walking bass_: quarter notes that outline chord progressions
-
-__latin__
-
-📺 Latin Music USA
-
-* _salsa (Fania)_: jazz (Machito) + mambo (Tito Puente, Tito Rodriguez)
-* _bossa nova (João Gilberto, Elis Regina)_: jazz + samba (‘a' 1 ‘a' 2)
-* _conjunto_: mexican
-* _norteño_: tejano
-
-__za__
-
-* _generative_: https://alexbainter.com/
-* _new jack_: no melody during verse
-* _soul_: https://www.youtube.com/user/TheSoulhawk/videos
-* _trip hop_: Portishead, Massive Attack, Tricky
