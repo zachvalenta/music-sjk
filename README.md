@@ -8,14 +8,11 @@
 
 * _artists_: The Band, Cody Chesnutt, D'Angelo, Stevie Wonder, Nas, Jay-Z, Andre, TVotR
 * _code music_: ambient, drone, idm
-* _cover art_: Lost in Translation OST Japanese version, Miles Davis someday my prince will come, Ohio Players skin tight, Slint spiderland Diana Ross first album Bobby Timmons little barefoot soul Monica miss thang Mike Clark Paul Jackson funk stops here John Prine sweet revenge
 * _erosion of ownership_: subscription, DRM, end-user license agreements https://www.eff.org/deeplinks/2017/05/book-review-end-ownership%0A https://news.ycombinator.com/item?id=15862494
 * _high points_: Stevie Wonder for the 70s, Wu Tang in 1995, TVotR in the 2000s
-* _intros_: Beach Boys wouldn't it be nice, Diana Ross i'm coming out, Fucked Up broken head, Mount Kimbie home recording, Ghostface back like that, Theme from S Express has the best intro of all time
 * _Philly_: Barbara Mason, Coltrane, Philly Joe Jones, Jaco Pastorius, McCoy Tyner, Roots, The Trammps, War on Drugs, Delfonics, Nina Simone, Tierra Whack
 * _playlist_: baby it's you, baby it's me
-* _titles - albums_: Ramones 'Too Tough to Die' https://en.wikipedia.org/wiki/The_Powers_That_B#Niggas_on_the_Moon https://en.wikipedia.org/wiki/Turn_It_Up_Faggot https://en.wikipedia.org/wiki/I_Don%27t_Like_Shit,_I_Don%27t_Go_Outside https://en.wikipedia.org/wiki/Who_Is_This_Bitch,_Anyway%3F
-* _titles - songs_: I'm Leaving You Because I Don't Love You
+* _session musicians_: Wrecking Crew, Funk Brothers, Muscle Shoals
 * _underappreciated geniuses_: Cody Chesnutt, Jens Lekman
 * _upset_: Illmatic intro, Legend, Many Men, Walk, U Guessed It, Mantra, A Lot, Return of the G, Praying for Help, Nowhere2Go, Alright, Yah, Love, Fear, Hail Mary, Heaven
 * _lyrics_: Stooges raw power Mac grand finale, Lil Kim queen bitch Jay Elec how great
@@ -37,10 +34,8 @@ Mac grand finale
 > Not a king, I'm no David, music, I'm a crackhead / no hobbies and recreation, don't even know my address
 > Self medicate, self education / Rick Rubin showed me transcendental meditation
 
-__lifetime__
-
+lifetime
 * _guides_: parents (the Who) DVDs (Incubus, Led Zeppelin) Paste Magazine, Penn State library and Pitchfork and Jack, Hella Tight and Wikipedia, Christgau and Wikipedia, Swafford and Neely
-
 * high school: 
 * Penn State: only built 4 cuban linx, london calling
 * Dalian: 
@@ -51,8 +46,7 @@ __lifetime__
 * London: a lot
 * NYC: 
 
-__moments__
-
+moment
 * 2003: listening to 'Rich' going into the Lincoln Tunnel
 * 2003: turn on 'De-Loused in the Comatorium' in my room, sit down
 * 2006: TV on the Radio at Starlight Ballroom, Radiohead at Bonnaroo, Clipse in Pittsburgh
@@ -63,7 +57,8 @@ __moments__
 
 ## tooling
 
-* youtube-dl alternative https://github.com/Marethyu12/gotube
+* _streaming_: https://selfhostedsource.tech/category/self-hosted/audio-streaming
+* _youtube-dl_: makes Hombrew responsible for ingesting latest version https://github.com/ytdl-org/youtube-dl/issues/20553 seems like Github issues have disappeared; alternative https://github.com/Marethyu12/gotube if 403 run `--rm-cache-dir` https://github.com/ytdl-org/youtube-dl/issues/23638
 * download from Soundcloud and Bandcamp https://github.com/Miserlou/SoundScrape
 * _metadata_: https://bitheap.org/dnuos/ http://oidua.suxbad.com/ https://www.theverge.com/2019/5/29/18531476/music-industry-song-royalties-metadata-credit-problems http://richardmavis.info/tagging-files
 * _NAS (network attached storage)_: aka 'home media server'; options (Plex, cmus remote) https://www.youtube.com/results?search_query=cmus+remote&page=&utm_source=opensearch https://www.youtube.com/watch?v=UJw9YU_SBzo https://blog.dave.tf/post/building-nas-1/ https://www.youtube.com/results?search_query=build+a+nas https://www.youtube.com/results?search_query=buy+a+nas https://kevq.uk/my-home-server-2-months-on/
@@ -102,6 +97,7 @@ repeated.export("mashup.mp3", format="mp3")
 
 ## cmus
 
+* I wish there was history file
 * _config_: `~/.config/cmus`
 * _docs_: https://github.com/cmus/cmus/blob/master/Doc/cmus-tutorial.txt bad and won't get better because project not maintained https://github.com/cmus/cmus/issues/856
 > There are more commands and features not covered here like loading and saving playlists, controlling cmus remotely with `cmus-remote`, etc.
@@ -110,21 +106,24 @@ repeated.export("mashup.mp3", format="mp3")
 * _mark_: for bulk operations; `space`
 
 nav
-
 * _up/down_: Vim
 * _top/bottom_: Vim
 * _enter/leave_: `RETURN / DELETE`
 * _search_: Vim
 
 play
-
 * _play/pause_: `c`
 * _restart_: `x`
 * _skip - back/forward_: `z/b`
 * _skip - seconds - back/forward_: `:seek +/-<num>` 
 
-views
+* _repeat current_: `ctrl r`
+* _continue_: `C`
+* _shuffle_: `s`
+* _play from_: `m`
+* _toggle play from library or playlist_: `M`
 
+views
 * _library - clear_: `:clear`
 * _playlist - add_: `y`
 * _queue - prepend_: `E`
@@ -137,17 +136,12 @@ views
 config
 
 * _add music_: `a` in browser view on dir to add https://github.com/cmus/cmus/issues/233#issuecomment-399426415
-* _continue_: `C`
-* _shuffle_: `s`
-* _play from_: `m`
-* _toggle play from library or playlist_: `M`
 * _display - time remaining in song_: settings - 'show_remaining_time'
 * _display - hidden files_: `i`
 
 ## albums
 
-__top 10__
-
+top 10
 * _Band_: Northern Lights Southern Cross
 * _Brian Eno_: Another Green World
 * _Clipse_: Hell Hath No Fury
@@ -161,16 +155,34 @@ __top 10__
 * _Stones_: Exile on Main Street
 * _Van Morrison_: Astral Weeks
 
-__dance__
+cover art
+* Lost in Translation OST Japanese version
+* Miles Davis someday my prince will come
+* Ohio Players skin tight
+* Slint spiderland 
+* Diana Ross first album 
+* Bobby Timmons little barefoot soul 
+* Monica miss thang
+* Mike Clark Paul Jackson funk stops here 
+* John Prine sweet revenge
+* Odetta at the gate of horn
 
+titles
+* Kingdom tears in the club
+* Ramones too tough to die
+* https://en.wikipedia.org/wiki/The_Powers_That_B#Niggas_on_the_Moon
+* https://en.wikipedia.org/wiki/Turn_It_Up_Faggot 
+* https://en.wikipedia.org/wiki/I_Don%27t_Like_Shit,_I_Don%27t_Go_Outside
+* https://en.wikipedia.org/wiki/Who_Is_This_Bitch,_Anyway%3F
+* If This is House I Want My Money Back https://www.discogs.com/Various-If-This-Is-House-I-Want-My-Money-Back-III/release/5715012
+
+dance
 * _Derrick May_: Live in Sciabecco
 * _DJ Richard_: Grind
 * _The Field_: Looping State of Mind, Cupid's Head
 * _Omar S_: The Best
-* _The Field_: Looping State of Mind
 
-__jazz__
-
+jazz
 * _Chet Baker_: Chet Baker Sings
 * _Coltrane_: Blue Train, Love Supreme
 * _Ellington_: Money Jungle
@@ -179,8 +191,7 @@ __jazz__
 * _Mingus_: Ah Um
 * _Miles Davis_: Sketches of Spain, Bitches Brew
 
-__rock__
-
+rock
 * _Beatles_: Please Please Me, White Album
 * _Bob Dylan_: Highway 61
 * _Band_: Music from Big Pink, Basement Tapes, Northern Lights Southern Cross
@@ -198,16 +209,14 @@ __rock__
 * _Wire_: Pink Flag
 * _Yeah Yeah Yeah_: Fever to Tell
 
-__r-n-b__
-
+r-n-b
 * _Anita Baker_: Rapture
 * _D’Angelo_: Voodoo, Black Messiah
 * _James Brown_: Live at the Apollo
 * _Steve Wonder_: Music of My Mind, Talking Book
 * _Sly Stone_: There’s a Riot Goin’ On
 
-__rap__
-
+rap
 * _Clipse_: Hell Hath No Fury
 * _Game_: Documentary 2
 * _Kendrick_: Damn
@@ -215,8 +224,7 @@ __rap__
 * _Vince_: Stolen Youth
 * _Wu_: Only Built 4 Cuban Linx
 
-__za__
-
+za
 * _Arthur Russell_: World of Arthur Russell, World of Echo
 * _Babatunde Olatunji_: Drums of Passions
 * _Brian Eno_: Another Green World
@@ -309,8 +317,36 @@ __albums__
 
 ## songs
 
-__top 10__
+* _titles - songs_: I'm Leaving You Because I Don't Love You
 
+intros
+* S Express theme from s express
+* Beach Boys wouldn't it be nice
+* Diana Ross i'm coming out
+* Fucked Up broken head
+* Mount Kimbie home recording
+* Ghostface back like that
+
+about God
+* Stevie have a talk with god
+* Al Green god is standing by
+
+piano breaks
+* Nick Drake pink moon
+* Faces wish ooh la la
+* Elliott Smith pitseleh
+
+love
+* _Angel Olsen_: Heart Shaped Face
+* _CeeLo_: No One's Gonna Love You
+* _Girls_: Heartbreaker
+* _Harold Melvin_: I Miss You
+* _Nick Cave_: Into My Arms
+* _Patsy Cline_: She's Got You
+* _Ronettes_: Do I Love You
+* _Stevie Wonder_: I Love Every Little Thing
+
+top 10
 * _Aly Us_: Follow Me
 * _DJ Rashad_: Let It Go
 * _Donny Hathaway_: You've Got a Friend
@@ -323,8 +359,7 @@ __top 10__
 * _Stevie_: Have a Talk with God
 * _Van Morrison_: Sweet Thing
 
-__dance__
-
+dance
 * _Aly Us_: Follow Me
 * _Alex Danilov_: Deep S
 * _DJ MC_: Y Fall
@@ -346,25 +381,23 @@ __dance__
 * _Young Galaxy_: Pretty Boy
 * _Young Smoke_: Space Muzik Pt. 3
 
-__jazz__
-
+jazz
 * _Coltrane_: Blue Train, Naima, In a Sentimental Mood, Moment's Notice
 * _Derrick Hodge_: For Generations
 * _Ellington_: Fleurette Africaine
+* _Lester Young_: Lester Leaps In
 * _Miles_: It Never Entered My Mind, My Funny Valentine, Someday My Prince Will Come
 * _Mingus_: Open Letter to Duke
 * _Horace Silver_: Calcutta Cutie
 
-__pop__
-
+pop
 * _Baby Shakes_: Love Machine
 * _Camera Obscura_: French Navy
 * _Kid Wave_: Sway
 * _Orioles_: Too Soon to Know
 * _Ronettes_: Do I Love You
 
-__rap__
-
+rap
 * _50_: How to Rob, Many Men, Ayo
 * _ASAP_: Trilla, Suddenly
 * _Big Boi_: Ghetto Musick, Church, Tomb of the Boom, In the A
@@ -391,8 +424,7 @@ __rap__
 * _Wayne_: Ice Cream, La La, Mad, A Milli
 * _Wu_: Ice Water
 
-__r-n-b__
-
+r-n-b
 * _Alexandria_: Problem
 * _Anita Baker_: You Bring Me Joy
 * _Barbara Mason_: Yes I'm Ready, Another Man
@@ -434,8 +466,7 @@ __r-n-b__
 * _Tina Turner_: - Keep On Pushing
 * _Trammps_: Hold Back the Night
 
-__rock__
-
+rock
 * _Angel Olsen_: Heart-Shaped Face
 * _Antlers_: Rolled Together, Hotel, Revisted
 * _Band_: Band (when you awake, rockin chair)
@@ -486,8 +517,7 @@ __rock__
 * _Wilco_: California Stars
 * _Wu Lyf_: 14 Crowns
 
-__za__
-
+za
 * _Arthur Russell_: Wild Combination, Keeping Up
 * _Babatunde Olatunji_: Gin Go Lo Ba
 * _Billy Boy Arnold_: Wish You Would (Bowie version)
@@ -502,24 +532,21 @@ __za__
 * _Garth Brooks_: Friends in Low Places
 * _My Bloody Valentine_: Glider, Sugar, Sometimes
 * _Majical Cloudz_: Impersonator
-* _Roisin Murphy_: Exploitation
 * _Patsy Cline_: Strange, She's Got You
 * _Red Hot Chili Peppers_: Porcelain
 * _Talk Talk_: New Grass
 * _Van Morrison_: Caravan, Sweet Thing
 * _xx_: VCR, Shelter
 
-__folk__
-
-* _Arthur Russell_: Goodbye Old Paint, I Won't Be Around Anymore
+folk
+* _Arthur Russell_: I Won't Be Around Anymore
 * _Bill Callahan_: Riding for the Feeling, One Fine Morning
 * _Kelis_: Bless the Telephone
 * _Neil Young_: Cripple Creek Ferry
 * _Nick Drake_: Pink Moon
 * Indian War Whoop
 
-__reggae__
-
+reggae
 * _Brian and Tony Gold_: Sweet Baby
 * _Clash_: Equaliser
 * _Dennis Brown_: Wolves and Leopards
@@ -528,14 +555,3 @@ __reggae__
 * _Scientist_: Miss Know It All
 * _Shabba Ranks_: Peenie Peenie
 * _Wayne Smith_: Under Me Sleng Teng
-
-__love__
-
-* _Angel Olsen_: Heart Shaped Face
-* _CeeLo_: No One's Gonna Love You
-* _Girls_: Heartbreaker
-* _Harold Melvin_: I Miss You
-* _Nick Cave_: Into My Arms
-* _Patsy Cline_: She's Got You
-* _Ronettes_: Do I Love You
-* _Stevie Wonder_: I Love Every Little Thing
