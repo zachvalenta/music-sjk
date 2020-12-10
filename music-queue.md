@@ -5,6 +5,7 @@ pods
 * Lindsay cynical theories
 * https://www.youtube.com/watch?v=T-IU0zRiS-U
 
+* keep cool https://www.youtube.com/watch?v=ezQvXCY62do
 * eno cale album
 * the chills pink frost
 * hot chocolate
@@ -70,3 +71,10 @@ pods
 * more ricki lee jones
 * more laurel halo
 * eternal tapestry
+* https://www.youtube.com/watch?v=6f4XziJNda4
+* junktion
+* https://www.youtube.com/watch?v=GbqVHPR7A7Y&feature=youtu.be
+* more sly stone
+* kenny dorham! https://www.youtube.com/watch?v=rMTlthu5V0g
+* https://en.wikipedia.org/wiki/Trompe_le_Monde
+* https://en.wikipedia.org/wiki/Sparks_(band)
